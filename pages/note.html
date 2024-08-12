@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/note.css">
+    <title>New Note</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="panel">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/saved.html">Saved Notes</a>
+            <a href="../pages/delete.html">Delete</a>
+            <a href="../pages/about.html">About</a>
+        </div>
+        <div class="txtArea">
+            <h1 style="text-decoration: underline;">New Note Section</h1>
+            <textarea id="text" placeholder="Enter your note!"></textarea>
+            <input type="text" id="key" placeholder="Enter the key!">
+            <div style="display: flex; column-gap: 5px;"><button id="save">Save</button><button
+                    id="retrieve">Retrieve</button><button id="update">Update</button></div>
+        </div>
+
+    </div>
+
+    <script src="../js/note.js"></script>
+</body>
+
+</html>
